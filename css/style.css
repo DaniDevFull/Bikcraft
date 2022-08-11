@@ -1,65 +1,28 @@
-body {
-	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-}
+@import './global/header.css';
+@import './global/introducao.css';
+@import './global/global.css';
+@import './global/utilidades.css';
+@import './global/tipografia.css';
+@import './global/cores.css';
+@import './global/bicicletas.css';
+@import './global/tecnologia.css';
+@import './global/parceiros.css';
+@import './global/depoimento.css';
+@import './global/seguros.css';
+@import './global/footer.css';
+@import './global/termos.css';
+@import './global/bicicletas-listas.css';
+@import './global/vantagens.css';
+@import './global/perguntas.css';
+@import './global/nimbus.css';
+@import './global/nebula.css';
+@import './global/magic.css';
+@import './global/bicicleta.css';
+@import './global/contatos.css';
+@import './global/lojas.css';
+@import './global/formulario.css';
+@import './global/orcamento.css';
 
-ul {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
 
-a {
-	text-decoration: none;
-	text-align: center;
-}
 
-.header-bg {
-	background-color: black;
-}
 
-.header {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	align-items: center;
-	justify-content: space-around;
-	box-sizing: border-box;
-	padding: 20px;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-.header-menu {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	gap: 40px;
-}
-
-.header-menu a {
-	color: white;
-	padding: 16px 0px;
-	display: inline-block;
-	font-size: 18px;
-	position: relative;
-
-}
-
-.header-menu a:after {
-	content: "";
-	display: block;
-	height: 2px;
-	width: 0px;
-	background-color: white;
-	margin-top: 4px;
-	transition: 0.3s;
-	position: absolute;
-}
-
-.header-menu a:hover::after {
-	width:100%;
-}
