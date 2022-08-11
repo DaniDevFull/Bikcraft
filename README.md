@@ -1,3 +1,1 @@
-# Bikecraft
 
-Projeto de estudo!
